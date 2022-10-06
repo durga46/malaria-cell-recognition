@@ -151,7 +151,7 @@ predictions = pred_probabilities > 0.5
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 from tensorflow.keras.preprocessing import image
-img = image.load_img('mui.png')
+img = image.load_img('cell.png')
 img=tf.convert_to_tensor(np.asarray(img))
 img=tf.image.resize(img,(130,130))
 img=img.numpy()
@@ -172,15 +172,16 @@ else:
 ![M1](https://user-images.githubusercontent.com/75235704/194232610-6e967179-e6f3-4a7f-bd6f-5af310a75c68.png)
 
 
-### Classification Report Confusion Matrix
-![M2](https://user-images.githubusercontent.com/75235704/194232636-b38fad5d-6ee0-47c9-ba2d-ef5308ed1f96.png)
+### Classification Report
+<img width="550" alt="x1" src="https://user-images.githubusercontent.com/75235704/194234149-49fd8e6a-fade-4b6d-beba-4a5a8a0aa3a8.png">
 
-###Confusion Matrix
-![m4](https://user-images.githubusercontent.com/75235704/194232966-f151eade-f3a6-4610-8f65-2b4f188447f6.png)
+
+### Confusion Matrix
+<img width="494" alt="x2" src="https://user-images.githubusercontent.com/75235704/194234208-5186afbb-ce58-4edf-aac4-2686d6eeae0e.png">
 
 
 ### New Sample Data Prediction
-![M3](https://user-images.githubusercontent.com/75235704/194232742-bf3ab780-680d-477b-83c9-b59d23108da0.png)
+<img width="448" alt="m5" src="https://user-images.githubusercontent.com/75235704/194234261-d83053e0-de84-4545-832d-0b63cc325563.png">
 
 
 
