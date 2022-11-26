@@ -1,4 +1,6 @@
-# Deep Neural Network for Malaria Infected Cell Recognition
+## EX.NO.04
+## DATE: 15.10.2022
+# <p align="center">Deep Neural Network for Malaria Infected Cell Recognition</p>
 
 ## AIM
 
