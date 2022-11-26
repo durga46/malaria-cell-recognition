@@ -182,7 +182,9 @@ else:
 ### Confusion Matrix
 <img width="494" alt="x2" src="https://user-images.githubusercontent.com/75235704/194234208-5186afbb-ce58-4edf-aac4-2686d6eeae0e.png">
 
-
+<br>
+<br>
+<br>
 ### New Sample Data Prediction
 <img width="448" alt="m5" src="https://user-images.githubusercontent.com/75235704/194234261-d83053e0-de84-4545-832d-0b63cc325563.png">
 
